@@ -1,0 +1,190 @@
+ *{
+   margin: : 0;
+   padding:  0;
+   fant-family: Century Gothic;
+ }
+header{
+  background-image:  url( 606876.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type:  none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff transparent ;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+
+}
+ul li.active a {
+  background-color: #fff;
+  color: #000;
+
+}
+.logo img{
+  width: 150px;
+  height: auto;
+  margin-top: 25px;
+}
+.main{
+   max-width:  1200px;
+   margin: auto;
+}
+.title{
+  position :absolute;
+  top:70%;
+  left:40%;
+
+}
+.title h1{
+  color:orange ;
+  font-size: 50px;
+
+}
+.title h2{
+  color:orange;
+  font-size: 30px;
+  position: absolute;
+  left:37%;
+  top: 50%;
+}
+.title h3{
+  color: orange;
+  font-size: 20px;
+position: absolute;
+  left: 30%;
+  top: 110%;
+
+}
+.button{
+  position: absolute;
+  top: 120%;
+  left: 15%;
+  display: grid;
+}
+.btn{   text-decoration: none;
+  color: #000;
+  padding: 10px 30px;
+  border: 1px solid #000 ;
+  transition: 0.6s ease;
+}
+.btn:hover{
+  background-color: orange ;
+  color: #000;
+}
+
+
+.button2{
+  position: absolute;
+  top: 120%;
+  left: 75%;
+  display: grid;
+}
+.btn2{   text-decoration: none;
+  color: #000;
+  padding: 10px 30px;
+  border: 1px solid #000 ;
+  transition: 0.6s ease;
+}
+.btn2:hover{
+  background-color:orange;
+  color: #000;
+}
+
+
+
+.button3{
+  position: absolute;
+  top: 120%;
+  left: 45%;
+  display: grid;
+}
+.btn3{   text-decoration: none;
+  color: #000;
+  padding: 10px 30px;
+  border: 1px solid #000 ;
+  transition: 0.6s ease;
+}
+.btn3:hover{
+  background-color:orange;
+  color: #000;
+}
+.title2 h1{
+      position: absolute;
+      top: 150%;
+      left: 20%
+
+}
+.gallery1{
+  position: absolute;
+
+  width: 200px;
+  top:  170%;
+  left: 10%;
+}
+.dis1 h1{
+  border-style: inset;
+  border-color: orange;
+}
+.dis1 h1:hover{
+  background-color: #000;
+  color:  orange;
+transition: 0.6s ease;}
+
+.gallery2{
+  position: absolute;
+  width: 200px;
+  top:  170%;
+  left: 40%;
+}
+.dis2 h1{
+  border-style: inset;
+  border-color: orange;
+}
+.dis2 h1:hover{
+  background-color: #000;
+  color: orange;
+transition: 0.6s ease;}
+.gallery3{
+  position: absolute;
+
+  width: 200px;
+  top:  170%;
+  left: 70%;
+}
+.dis3 h1{
+  border-style: inset;
+  border-color: orange;
+}
+.dis3 h1:hover{
+  background-color: #000;
+  color: orange;
+  transition: 0.6s ease;
+}
+.new{
+  position: absolute;
+  top: 200%;
+  left: 60%;
+ border: 100px solid black;
+}
+ .bg{
+   position: absolute;
+
+background-image: url(bg1.jpg);
+height: 100vh;
+background-size:cover;
+background-position: center;}
